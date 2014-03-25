@@ -1,0 +1,50 @@
+<div id="resume" class="row">
+    <div id="paper" class="col-md-offset-0 col-lg-offset-1 col-md-12 col-lg-10 col-sm-12">
+        <div class="row">
+            <h1>Adam Booth</h1>
+
+            <h2>Web Developer</h2>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Profile</h3>
+
+                    <p>{{profile}}</p>
+                </div>
+            </div>
+            <h3>Skills</h3>
+
+            <div class="row">
+                <div ng-repeat-start="skillList in skillLists"></div>
+
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                    <ul>
+                        <li ng-repeat="skill in skillList">{{skill}}</li>
+                    </ul>
+                </div>
+                <div ng-repeat-end></div>
+            </div>
+            <h3>Experience</h3>
+
+            <div ng-repeat="job in xp" class="row entry">
+                <div class="col-md-3">
+                    <span ng-bind="job.start"></span> -
+                    <span ng-bind="job.end != null ? job.end : 'Present'"></span>
+                </div>
+                <div class="col-md-9">
+                    <h4 class="entryName">{{job.title}}, {{job.company}}</h4>
+
+                    <p class="entrySubText">{{job.location}}</p>
+
+                    <p>{{job.text}} </p>
+
+                    <p>
+                    <ul>
+                        <li ng-repeat="item in job.items">{{item}}</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+body{
+    background: none;
+}
+#paper{
+    border: none !important;
+    margin:0;
+    padding-top:10px;
+    padding-bottom:0px;
+    padding-right: 50px;
+
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    width: auto !important;
+}
+
+a{
+    background: none;
+    padding-left: 0;
+    text-decoration: none !important;
+}
+
+.entry,.entrySection,.inDepth{
+    page-break-inside: avoid !important;
+}
+
+.entrySection ul{
+    padding-left: 17px;
+}
+.entrySection li{
+    list-style: square;
+    padding-left: 0px;
+}
+
+.printerOnly{
+    display: inline;
+}
+.noPrint{
+    display: none;
+}
+
+.spacer{
+    display: block;
+    height: 120px;
+    /*    margin-bottom: 200px;*/
+}
