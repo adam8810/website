@@ -1,4 +1,4 @@
-#resume body {
+body {
     color: #181818;
     background: #F4F4F4;
     font-family: arial;
@@ -13,6 +13,14 @@
 
 #resume p {
     margin-bottom: 5px;
+}
+
+#resume ul.skillList{
+    /*padding-left: 0;*/
+}
+
+#resume .skillList li{
+    list-style: none;
 }
 
 #resume a {
