@@ -15,11 +15,13 @@ body {
     margin-bottom: 5px;
 }
 
-#resume ul.skillList{
+#resume ul.skillList {
     /*padding-left: 0;*/
+
+    margin-bottom: 0;
 }
 
-#resume .skillList li{
+#resume .skillList li {
     list-style: none;
 }
 
@@ -71,10 +73,7 @@ body {
 
 #resume #addressBox {
     font-weight: bold;
-    position: absolute;
-    right: 36px;
     text-align: right;
-    top: 45px;
 }
 
 #resume h1 {
@@ -89,13 +88,13 @@ body {
     font-family: 'Anton', sans-serif;
     font-size: 22px;
     font-weight: normal;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
-h3 {
+#resume h3 {
     border-bottom: 1px solid #CCCCCC;
     /*    font-family: 'Anton', sans-serif;*/
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -106,13 +105,13 @@ h3 {
 }
 
 .years {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     float: left;
 }
 
 .entry {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .entrySection {
@@ -126,10 +125,12 @@ h3 {
     width: 650px;
 }
 
-.entryName {
+h4.entryName {
     font-size: 14px;
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
 }
 
 .entrySubText {

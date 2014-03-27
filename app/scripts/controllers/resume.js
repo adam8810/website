@@ -9,4 +9,6 @@ angular.module('amboothcomApp')
         $scope.skillLists = person.skills;
         $scope.xp = person.xp;
         $scope.education = person.education;
+        $scope.email = person.email;
+        $scope.phone = person.phone;
     });

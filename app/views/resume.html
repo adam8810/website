@@ -1,14 +1,15 @@
 <div id="resume" class="row">
     <div id="paper" class="col-md-offset-0 col-lg-offset-1 col-md-12 col-lg-10 col-sm-12">
         <div class="row">
+            <div id="addressBox" class="pull-right">
+                <p>
+                    {{email}}<br/>
+                    {{phone}}
+                </p>
+            </div>
             <h1>Adam Booth</h1>
 
             <h2>Web Developer</h2>
-
-            <!--<div class="visible-xs">X</div>-->
-            <!--<div class="visible-sm">S</div>-->
-            <!--<div class="visible-md">M</div>-->
-            <!--<div class="visible-lg">L</div>-->
             <div class="row">
                 <div class="col-md-12">
                     <h3>Profile</h3>
@@ -31,7 +32,7 @@
                 </div>
             </div>
 
-            <div ng-repeat="(key,xp) in xp" class="row ">
+            <div ng-repeat="(key,xp) in xp" class="">
                 <h3>{{key}}</h3>
 
                 <div ng-repeat-start="job in xp"></div>
@@ -46,18 +47,20 @@
                                 <h4 class="entryName">{{job.title}}, {{job.company}}</h4>
                             </div>
                         </div>
-                        <div class="col-xs-3"></div>
+                        <div class="row">
+                            <div class="col-xs-3"></div>
 
-                        <div class="col-xs-9">
-                            <p class="entrySubText">{{job.location}}</p>
+                            <div class="col-xs-9">
+                                <p class="entrySubText">{{job.location}}</p>
 
-                            <p>{{job.text}} </p>
+                                <p>{{job.text}} </p>
 
-                            <p>
-                            <ul>
-                                <li ng-repeat="item in job.items">{{item}}</li>
-                            </ul>
-                            </p>
+                                <p>
+                                <ul>
+                                    <!--<li ng-repeat="item in job.items">{{item}}</li>-->
+                                </ul>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,24 +69,29 @@
             <h3>Education</h3>
 
             <div ng-repeat-start="edu in education"></div>
+            <div class="row entry">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-xs-3 years">
+                            <span>{{edu.start}}</span> -
+                            <span>{{edu.end}}</span>
+                        </div>
+                        <div class="col-xs-9">
+                            <h4 class="entryName">{{edu.title}}</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3"></div>
 
-            <div class="row">
-                <div class="col-xs-4 col-md-3 years">
-                    <span>{{edu.start}}</span> -
-                    <span>{{edu.end}}</span>
+                        <div class="col-xs-9">
+                            <p class="entrySubText">{{edu.location}}</p>
+
+                            <p>{{edu.major}}</p>
+
+                            <p>{{edu.text}} </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-8 col-md-9">
-                    <h4 class="entryName">{{edu.title}}</h4>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
-
-            <div class="col-md-9">
-                <p class="entrySubText">{{edu.location}}</p>
-
-                <p>{{edu.major}}</p>
-
-                <p>{{edu.text}} </p>
             </div>
             <div ng-repeat-end></div>
         </div>

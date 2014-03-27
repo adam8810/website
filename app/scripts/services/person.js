@@ -2,13 +2,16 @@
 
 angular.module('amboothcomApp')
     .constant('person', {
-        profile: 'Passionate web developer with an interest in all forms' +
-            'of technology. Completed degree in Information Systems Management' +
-            'while refining skills through internships, freelance development work, ' +
-            'and multiple side projects. Efficient, determined, self motivated learner ' +
+        profile: 'Full stack web application developer with an extreme passion for innovation. ' +
+
+            'Completed degree in Information Systems Management ' +
+            'while refining skills through internships, freelance development work ' +
+            'and side projects. Efficient, determined, self motivated learner ' +
             'with strong organizational skills. Group leader and team player with strong ' +
             'people skills resulting in many successful projects including client websites ' +
             'and web applications.',
+        email: 'adam@ambooth.com',
+        phone: '(785) 813-1748',
         education: [
             {
                 start: '2007',
@@ -22,7 +25,7 @@ angular.module('amboothcomApp')
         skills: {
             column1: [
                 'Object Oriented PHP',
-                'FuelPHP MVC Framework',
+                'FuelPHP',
                 'NodeJS',
                 'AngularJS'
             ],
@@ -34,8 +37,8 @@ angular.module('amboothcomApp')
             ],
             column3: [
                 'Amazon AWS',
-                'Regular Expressions',
-                'Wordpress Themes'
+                'Wordpress Themes',
+                'Regular Expressions'
             ]
         },
         xp: {
@@ -46,12 +49,11 @@ angular.module('amboothcomApp')
                     title: 'Full Stack Web Developer',
                     company: 'Flogistix LP',
                     location: 'Oklahoma City, OK',
-                    text: 'Full Stack mobile & web applications developer. Played major role in optimizing  used by corporate staff and ' +
-                        'field mechanics. Introduced Object Oriented practices and optimized pre-existing code bringing ' +
-                        'noticeably faster database interaction speeds. Transitioned existing web applications and websites ' +
-                        'to Amazon EC2 instances and RDS databases. Created internal documentation system and work flows ' +
-                        'using GitHub to maintain company code and push new versions to production servers. Extensive work ' +
-                        'with responsive website design and development.',
+                    text: 'Full stack mobile & web application developer. Took lead role on many successful projects ' +
+                        'used by internal team members as well as external clients. Introduced new Object Oriented ' +
+                        'frameworks and practices while optimizing existing codebase yielding noticeably faster ' +
+                        'execution speeds.  Transitioned existing web applications and websites to Amazon EC2 & ' +
+                        'RDS instances. Developed large, node-based, API used by applications and clients.',
                     items: [
                         'Amazon AWS/Linux administrator',
                         'Web Developer using FuelPHP',
@@ -145,7 +147,7 @@ angular.module('amboothcomApp')
                     company: 'Psi Epsilon Fraternity',
                     location: 'Oklahoma Christian University, Edmond, OK',
                     text: 'Founded new fraternity, Psi Epsilon, during freshmen year in college. Grew fraternity to over ' +
-                        '70 members before graduation. Highly involved with all decision-making and served as an ' +
+                        '80 members before graduation. Highly involved with all decision-making and served as an ' +
                         'executive officer for 4 years. Created the website used by all members for information and ' +
                         'even payment of dues. Maintained emailing lists and overall organization of club which included ' +
                         'taking meeting notes and sending calendar invites.',
@@ -171,14 +173,6 @@ angular.module('amboothcomApp')
                         'Maintained SGA website for two years'
                     ]
                 }
-//                {
-//                    start: '',
-//                    end: '',
-//                    title: '',
-//                    company: '',
-//                    location: '',
-//                    text: ''
-//                }
             ]
         }
 
