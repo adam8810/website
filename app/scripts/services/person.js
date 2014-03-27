@@ -2,13 +2,12 @@
 
 angular.module('amboothcomApp')
     .constant('person', {
-        profile: 'Full stack web application developer with an extreme passion for innovation. ' +
+        profile: 'Full stack web application developer with a passion for innovation. ' +
             'Completed degree in Information Systems Management ' +
             'while refining skills through internships, freelance development work ' +
             'and side projects. Efficient, determined, self motivated learner ' +
             'with strong organizational skills. Group leader and team player with strong ' +
-            'people skills resulting in many successful projects including client websites ' +
-            'and web applications.',
+            'people skills resulting in many successful projects.',
         email: 'adam@ambooth.com',
         phone: '(785) 813-1748',
         education: [
@@ -43,7 +42,8 @@ angular.module('amboothcomApp')
             column4: [
                 'Amazon AWS',
                 'MySQL & SQL',
-                'Git / Github'
+                'Git / Github',
+                'Vim'
             ]
         },
         xp: {
@@ -58,7 +58,7 @@ angular.module('amboothcomApp')
                         'used by internal team members as well as external clients. Introduced new Object Oriented ' +
                         'frameworks and practices while optimizing existing codebase yielding noticeably faster ' +
                         'execution speeds.  Transitioned existing web applications and websites to Amazon EC2 & ' +
-                        'RDS instances. Developed large, node-based, API used by applications and clients.',
+                        'RDS instances. Developed RESTful API used by all applications and clients.',
                     items: [
                         'Amazon AWS/Linux administrator',
                         'Web Developer using FuelPHP',
