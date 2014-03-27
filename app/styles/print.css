@@ -10,9 +10,9 @@ body{
     margin-bottom: 0px !important;
 }
 
-#paper{
+#resume #paper{
     border: none !important;
-    margin:0;
+    margin:0 !important;
     padding-top: 0px !important;
     padding-bottom:0px;
     padding-right: 50px;
@@ -26,6 +26,10 @@ body{
 #resume ul.skillList {
     margin-left: 0;
     padding-left: 0px;
+}
+
+#resume ul.skillList li{
+    padding-left: 0;
 }
 
 #resume a{
@@ -60,5 +64,5 @@ body{
 }
 
 .col-xs-12 {
-    width: 33.33333333333333%;
+    width: 25%;
 }

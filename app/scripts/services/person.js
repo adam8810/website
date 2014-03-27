@@ -3,7 +3,6 @@
 angular.module('amboothcomApp')
     .constant('person', {
         profile: 'Full stack web application developer with an extreme passion for innovation. ' +
-
             'Completed degree in Information Systems Management ' +
             'while refining skills through internships, freelance development work ' +
             'and side projects. Efficient, determined, self motivated learner ' +
@@ -24,21 +23,27 @@ angular.module('amboothcomApp')
         ],
         skills: {
             column1: [
-                'Object Oriented PHP',
-                'FuelPHP',
+                'AngularJS',
                 'NodeJS',
-                'AngularJS'
+                'jQuery',
+                'PHP / FuelPHP'
             ],
             column2: [
-                'jQuery',
-                'HTML5, CSS3',
-                'MySQL & SQL',
-                'Git / Github'
+                'HTML5',
+                'CSS3',
+                'Bower',
+                'Grunt Tasks'
             ],
             column3: [
-                'Amazon AWS',
+                'Yeoman',
+                'REST APIs',
                 'Wordpress Themes',
                 'Regular Expressions'
+            ],
+            column4: [
+                'Amazon AWS',
+                'MySQL & SQL',
+                'Git / Github'
             ]
         },
         xp: {
