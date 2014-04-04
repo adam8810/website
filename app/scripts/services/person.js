@@ -57,14 +57,12 @@ angular.module('amboothcomApp')
                     text: 'Full stack mobile & web application developer. Took lead role on many successful projects ' +
                         'used by internal team members as well as external clients. Introduced new Object Oriented ' +
                         'frameworks and practices while optimizing existing codebase yielding noticeably faster ' +
-                        'execution speeds.  Transitioned existing web applications and websites to Amazon EC2 & ' +
+                        'execution speeds. Transitioned existing web applications and websites to Amazon EC2 & ' +
                         'RDS instances. Developed RESTful API used by all applications and clients.',
                     items: [
                         'Amazon AWS/Linux administrator',
-                        'Web Developer using FuelPHP',
-                        'Created internal documentation system',
-                        'Heavy use of Git/Github',
-                        'Created a Windows 8 application using Windows Javascript Frameworks'
+                        'Introduced FuelPHP & OOP Methodologies',
+                        'Created internal documentation system'
                     ]
                 },
                 {
